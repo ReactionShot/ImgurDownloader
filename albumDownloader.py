@@ -21,6 +21,8 @@ api_response_saved = api_response.json()
 api_response.close()
 
 album_title = api_response_saved['data']['title']
+if album_title == None:
+    album_title = album_id
 print(album_title)
 
 # Create Album Folder
