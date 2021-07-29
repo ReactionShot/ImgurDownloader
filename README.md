@@ -1,2 +1,2 @@
 # ImgurDownloader
-Uses the Imgur API to download all images from an album.
+ Uses the Imgur API to download all images from an album.
